@@ -9,6 +9,7 @@ import Heading from './components/Heading';
 import Oscar from './components/Oscar';
 import Button from './components/Button';
 import Input from './components/Input';
+import { Container } from './components/Container';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
         console.log("Button clicked", event, id);
       }}/>
       <Input value='' handleChange={(event) => console.log(event)} />
+      <Container styles={{border: "1px solid black", padding: "1rem"}}/>
     </div>
   );
 }
