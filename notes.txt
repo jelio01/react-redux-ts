@@ -5,7 +5,7 @@ https://www.youtube.com/playlist?list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK
 
 npx create-react-app@latest react-ts-learn --template typescript
 
-next(() => return '#20');
+next(() => return '#25');
 
 -------------------------------------------------------------------------
 Redux Toolkit Tutorial
